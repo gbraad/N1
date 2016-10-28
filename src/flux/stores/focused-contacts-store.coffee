@@ -2,10 +2,10 @@ _ = require 'underscore'
 Rx = require 'rx-lite'
 
 Utils = require '../models/utils'
-Actions = require '../actions'
+Actions = require('../actions').default
 NylasStore = require 'nylas-store'
 Thread = require('../models/thread').default
-Contact = require '../models/contact'
+Contact = require('../models/contact').default
 MessageStore = require './message-store'
 AccountStore = require './account-store'
 DatabaseStore = require('./database-store').default

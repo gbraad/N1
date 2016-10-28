@@ -16,7 +16,6 @@ debug.log
 docs/output
 docs/includes
 spec/fixtures/evil-files/
-yoursway-create-dmg
 /_site
 /.sass-cache
 .integration-test-config
@@ -38,4 +37,5 @@ internal_packages/composer-scheduler
 internal_packages/link-tracking
 internal_packages/open-tracking
 internal_packages/send-later
+internal_packages/send-reminders
 internal_packages/thread-sharing
